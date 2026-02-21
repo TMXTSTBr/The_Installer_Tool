@@ -1,6 +1,6 @@
 # The Installer Toll
 
-![Repo Size](https://img.shields.io/github/repo-size/TMXTSTBr/The_Installer_Tool?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/TMXTSTBr/The_Installer_Tool/total?style=for-the-badge)
 
 The Installer Tool is a professional automation framework designed for Termux.
 
