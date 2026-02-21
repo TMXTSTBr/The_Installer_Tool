@@ -162,6 +162,55 @@ fi
 read -p "Press Enter to return..."
 }
 
+# ================= EXPORT =================
+export_script() {
+
+clear
+banner
+
+files=($SCRIPTS_DIR/*.sh)
+
+if [ ! -e "${files[0]}" ]; then
+    echo "No scripts found."
+    read -p "Press Enter..."
+    return
+fi
+
+echo -e "${WHITE}Select Script to Export"
+echo -e "────────────────────────────────${RESET}"
+
+i=1
+for f in "${files[@]}"; do
+    echo " $i) $(basename "$f")"
+    ((i++))
+done
+
+echo
+read -p ">> " num
+selected=${files[$((num-1))]}
+
+if [ -f "$selected" ]; then
+
+    # Se não tiver permissão, ativa automaticamente
+    if [ ! -d "/storage/emulated/0" ]; then
+        echo
+        echo "Setting up storage permission..."
+        termux-setup-storage
+        sleep 2
+    fi
+
+    DEST="/storage/emulated/0/InstallerTool"
+    mkdir -p "$DEST"
+
+    cp "$selected" "$DEST/"
+
+    echo
+    echo -e "${GREEN}[ Script exported successfully ✔ ]${RESET}"
+    echo -e "${CYAN}Location:${WHITE} $DEST/$(basename "$selected")${RESET}"
+fi
+
+read -p "Press Enter to return..."
+}
 # ================= MENU =================
 menu() {
 while true; do
@@ -171,21 +220,22 @@ banner
 echo -e "${WHITE} 1) Create Installer"
 echo -e " 2) List Scripts"
 echo -e " 3) Execute Script"
-echo -e " 4) Quick Install (wget + git)"
-echo -e " 5) Exit${RESET}"
-echo
+echo -e " 4) Export Script"
+echo -e " 5) Quick Install (wget + git)"
+echo -e " 6) Exit${RESET}"
 read -p " >> " op
 
 case $op in
     1) create_script ;;
     2) list_scripts ;;
     3) run_script ;;
-    4)
+    4) export_script ;;
+    5)
         install_pkg wget
         install_pkg git
         read -p "Press Enter to return..."
         ;;
-    5) exit ;;
+    6) exit ;;
     *) echo "Invalid option"; sleep 1 ;;
 esac
 done
