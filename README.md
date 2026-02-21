@@ -1,4 +1,4 @@
-I# The Installer Tool
+# The Installer Tool
 
 The Installer Tool is a professional automation framework designed for Termux.
 
@@ -44,7 +44,7 @@ I_T.sh
 Location where scripts are saved after exporting:
 
 ```
-/storage/emulated/0/InstallerTool/TD.sh
+/storage/emulated/0/InstallerTool/
 ```
 
 ## ScreenShot
