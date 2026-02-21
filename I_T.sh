@@ -54,7 +54,7 @@ echo
 echo -e "${GRAY}Professional Automation Framework for Termux${RESET}"
 echo -e "${WHITE}═══════════════════════════════════════════════════${RESET}"
 echo
-echo -e "${CYAN}Author : ${WHITE}$  YTAgenteAndroid"
+echo -e "${CYAN}Author : ${WHITE}$YT:YTAgenteAndroid"
 echo -e "${CYAN}GitHub : ${WHITE}$https://github.com/TMXTSTBr/The_Installer_Tool"
 echo
 }
