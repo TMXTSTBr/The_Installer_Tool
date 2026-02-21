@@ -1,7 +1,7 @@
 # The Installer Toll
 
-![Downloads](https://img.shields.io/github/downloads/TMXTSTBr/The_Installer_Tool/total?style=for-the-badge)
-
+![Languages Count](https://img.shields.io/github/languages/count/TMXTSTBr/The_Installer_Tool?style=for-the-badge)
+![Termux](https://img.shields.io/badge/Platform-Termux-black?style=for-the-badge&logo=gnu-bash)
 The Installer Tool is a professional automation framework designed for Termux.
 
 It allows users to easily create, manage, and execute custom installer scripts in a simple and organized way.
