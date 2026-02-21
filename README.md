@@ -1,4 +1,4 @@
-# The Installer Toll
+# The Installer Tool
 
 <p align="center">
 
