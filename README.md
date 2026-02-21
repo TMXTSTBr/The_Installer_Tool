@@ -1,6 +1,6 @@
-![The Installer Tool Banner](Banner.jpg)
+![The Installer Tool Banner](banner.png)
 
-#                   The Installer Tool
+                   # The Installer Tool
 
 The Installer Tool is a professional automation framework designed for Termux.
 
