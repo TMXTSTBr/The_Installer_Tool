@@ -1,15 +1,11 @@
 # The Installer Tool
 
-![Languages Count](https://img.shields.io/github/languages/count/TMXTSTBr/The_Installer_Tool?style=for-the-badge)
-
-![Termux](https://img.shields.io/badge/Platform-Termux-black?style=for-the-badge&logo=gnu-bash)
-
-![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
-
-![Bash](https://img.shields.io/badge/Made%20With-Bash-1f425f.svg?style=for-the-badge) 
-
-![Profile Views](https://komarev.com/ghpvc/?username=TMXTSTBr&style=for-the-badge)
-
+<p align="center">
+<img src="https://img.shields.io/github/languages/count/TMXTSTBr/The_Installer_Tool?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Termux-black?style=for-the-badge&logo=gnu-bash">
+<img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android">
+<img src="https://img.shields.io/badge/Made%20With-Bash-1f425f.svg?style=for-the-badge">
+<img src="https://komarev.com/ghpvc/?username=TMXTSTBr&style=for-the-badge">
 </p>
 
 
