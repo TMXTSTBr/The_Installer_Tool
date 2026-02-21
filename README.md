@@ -1,7 +1,5 @@
 # The Installer Tool
 
-<p align="left">
-
 ![Languages Count](https://img.shields.io/github/languages/count/TMXTSTBr/The_Installer_Tool?style=for-the-badge)
 
 ![Termux](https://img.shields.io/badge/Platform-Termux-black?style=for-the-badge&logo=gnu-bash)
