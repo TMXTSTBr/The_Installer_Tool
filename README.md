@@ -1,6 +1,4 @@
-![The Installer Tool Banner](banner.png)
-
-                   # The Installer Tool
+# The Installer Tool
 
 The Installer Tool is a professional automation framework designed for Termux.
 
@@ -41,3 +39,6 @@ After installation, run:
 ```bash
 I_T.sh
 ```
+## ScreenShot
+
+![The Installer Tool Banner](banner.png)
