@@ -1,4 +1,4 @@
-![The Installer Tool Banner](banner.png)
+![The Installer Tool Banner](Banner.png)
 
 #                   The Installer Tool
 
